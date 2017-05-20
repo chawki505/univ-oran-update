@@ -1,0 +1,122 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ *
+ */
+
+nav ul a,
+nav .brand-logo {
+  color:#ffffff ;
+}
+#Breadcrumbs  .nav-wrapper div {
+  padding-left: 15px;
+}
+
+.banner{
+  height: 500px;
+  background:linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.65) 100%),url(../image/background/background.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+}
+.bannerFaculte{
+  height: 150px;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+
+   #index-banner .section {
+    top: 10%;
+  }
+}
+
+#imageLogo{
+  margin-left: 10px;
+  margin-top: 4px;
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0%;
+  }
+  #imageLogo{
+    margin: auto;
+  }
+}
+
+
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+
+.about{
+margin: auto;
+text-align: center;
+}
+#image img{
+  height: 240px;
+  width: 470px;
+
+
+}
+#image2 img{
+  height: 270px;
+  width: 500px;
+
+
+}
+#lien a{
+  color: black;
+}
+
+#publogo{
+  padding: 5px;
+}
+
+@keyframes down{
+	0% {position:relative; top:0px; opacity: 0}
+	25% {position:relative; top:12.5px; opacity: 0.25}
+  50% {position:relative; top:25px; opacity: 0.5}
+  75% {position:relative; top:37.5px; opacity: 0.75}
+	100% {position:relative; top:50px; opacity: 1}
+}
+
+.fleche{
+  margin: auto;
+	animation: down 1s infinite linear alternate;
+}
