@@ -1,3 +1,3 @@
 # univ-oran-update
-Projet-devWeb
-http://www.univ-oran1.dz/update
+Projet-devWeb <br>
+https://chawki505.github.io/univ-oran-update/
