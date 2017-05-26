@@ -251,3 +251,51 @@ footer.page-footer {
     height: 240px;
     width: 100px;
 }
+
+#slide1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../image/autres/informatique.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#slide2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../image/autres/club/clubInfo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#slide3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../image/autres/math1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#slide4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../image/autres/chimie.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#slide5 {
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../image/autres/physique.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#slide6 {
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../image/autres/socio.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#slide7 {
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../image/autres/biologie.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#slide8 {
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../image/autres/club/clubPharmacie.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
